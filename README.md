@@ -1,12 +1,13 @@
-🚗 CAR PRICE PREDICTION MODEL
+#🚗 #Car Price Prediction Model
 
-This project predicts used car prices based on various features such as year, mileage, fuel type, transmission, and engine details.
+This repository contains a Machine Learning project that predicts used car prices based on features like year, mileage, fuel type, transmission, and engine details.
 
-Initially, a Linear Regression model was implemented, but the performance was poor due to non-linear patterns in the dataset. Later, a Random Forest Regressor was applied, which provided much better results.
+A Linear Regression model was first implemented but gave poor results due to non-linear patterns in the dataset. A Random Forest Regressor was later applied, which provided much better performance.
 
-📂 PROJECT STRUCTURE
+#📁 #Project Structure
+
 ├── data/
-│   └── car_data.csv         # Dataset
+│   └── car_data.csv         # Dataset file
 ├── notebooks/
 │   └── car_price_prediction.ipynb  # Jupyter Notebook
 ├── src/
@@ -14,7 +15,8 @@ Initially, a Linear Regression model was implemented, but the performance was po
 ├── README.md
 └── requirements.txt
 
-⚙️ TECH STACK
+
+#⚙️ #Tech Stack
 
 Python 🐍
 
@@ -26,92 +28,55 @@ Matplotlib & Seaborn – Data visualization
 
 Scikit-learn – Machine Learning models (Linear Regression, Random Forest)
 
-📊 DATASET
+#📊 #Dataset
 
-Features:
+Features: Name, Year, KM Driven, Fuel Type, Seller Type, Transmission, Owner, Mileage, Engine, Power
+Target Variable: Price (in INR Lakhs)
 
-Name
+#🔎 #Approach
 
-Year
+Data Preprocessing – handled missing values, encoded categorical data, converted string features like mileage and engine.
 
-KM Driven
+Exploratory Data Analysis (EDA) – visualizations, correlations, outlier detection.
 
-Fuel Type
+Modeling – Linear Regression (baseline, poor results) and Random Forest Regressor (better accuracy).
 
-Seller Type
+#📈 #Results
 
-Transmission
-
-Owner
-
-Mileage
-
-Engine
-
-Power
-
-Target Variable:
-
-Price (in INR Lakhs)
-
-🔎 APPROACH
-
-1. Data Preprocessing
-
-Handled missing values
-
-Encoded categorical variables
-
-Converted string columns like "Mileage (kmpl)" and "Engine (CC)" into numerical values
-
-2. Exploratory Data Analysis (EDA)
-
-Distribution plots for price
-
-Feature correlation analysis
-
-Outlier detection
-
-3. Modeling
-
-Linear Regression – Baseline model (poor R² and high error)
-
-Random Forest Regressor – Improved accuracy with better handling of non-linearities
-
-📈 RESULTS
-MODEL	R² SCORE	RMSE
+Model	R² Score	RMSE
 Linear Regression	~0.45	High
 Random Forest	~0.85	Low
 
 ✅ Random Forest performed significantly better compared to Linear Regression.
 
-🚀 HOW TO RUN
+#🚀 #How to Run
 
-1. Clone the repository:
+Clone the repository:
 
 git clone https://github.com/your-username/car-price-prediction.git
 cd car-price-prediction
 
 
-2. Install dependencies:
+Install dependencies:
 
 pip install -r requirements.txt
 
 
-3. Run the Jupyter Notebook:
+Run the notebook:
 
 jupyter notebook notebooks/car_price_prediction.ipynb
 
-📌 FUTURE WORK
 
-Try XGBoost / LightGBM for even better performance
+#📌 #Future Work
+
+Try XGBoost / LightGBM for better performance
 
 Hyperparameter tuning using GridSearchCV / RandomizedSearchCV
 
 Deploy the model using Flask / Streamlit
 
-🙌 ACKNOWLEDGEMENTS
+#🙌 #Acknowledgements
 
 Dataset sourced from Kaggle / CarDekho
 
-Inspired by practical use cases in used car marketplaces
+Inspired by real-world used car price prediction use cases
