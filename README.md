@@ -53,17 +53,17 @@ git clone https://github.com/your-username/car-price-prediction.git
 cd car-price-prediction
 ## 🚀 How to Run
 
-### 2. Install dependencies
+## 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 
-## 📌 Future Work
+### 📌 Future Work
 
 - Try **XGBoost / LightGBM** for better performance  
 - Hyperparameter tuning using **GridSearchCV / RandomizedSearchCV**  
 - Deploy the model using **Flask / Streamlit**  
 
-## 🙌 Acknowledgements
+### 🙌 Acknowledgements
 
 - Dataset sourced from **Kaggle / CarDekho**  
 - Inspired by real-world **used car price prediction** use cases it is bot gt=etting correwct check
