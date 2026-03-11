@@ -6,14 +6,13 @@ A **Linear Regression** model was first implemented but gave poor results due to
 
 ## 📁 Project Structure
 
-├── data/
-│ └── car_data.csv # Dataset file
-├── notebooks/
-│ └── Prediction_Model.ipynb # Jupyter Notebook
-├── src/
-│ └── model.py # Model training code
+├── DataSet/
+│   └── CarDetails.csv # Dataset file
+├── NoteBook/
+│   ├── Prediction_Model.ipynb # Jupyter Notebook
+│   ├── app.py # Python app file
+│   └── model.pkl # Trained model file
 ├── README.md
-└── requirements.txt
 
 
 ## ⚙️ Tech Stack
