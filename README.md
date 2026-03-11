@@ -9,7 +9,7 @@ A **Linear Regression** model was first implemented but gave poor results due to
 ├── data/
 │ └── car_data.csv # Dataset file
 ├── notebooks/
-│ └── car_price_prediction.ipynb # Jupyter Notebook
+│ └── Prediction_Model.ipynb # Jupyter Notebook
 ├── src/
 │ └── model.py # Model training code
 ├── README.md
