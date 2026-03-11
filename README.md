@@ -7,7 +7,7 @@ A **Linear Regression** model was first implemented but gave poor results due to
 ## 📁 Project Structure
 
 ├── DataSet/
-│   └── CarDetails.csv # Dataset file
+│   └── Cardetails.csv # Dataset file
 ├── NoteBook/
 │   ├── Prediction_Model.ipynb # Jupyter Notebook
 │   ├── app.py # Python app file
